@@ -23,7 +23,7 @@
                 <?php
                 $avengers = new Movie('Avengers age of Ultron', 'Action', 'Robert Downey Jr');
                 echo "<h2>";
-                echo $avengers->name;
+                echo $avengers->getName();
                 echo "</h2>";
                 echo "<p>";
                 echo $avengers->genre;

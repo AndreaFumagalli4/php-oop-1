@@ -12,6 +12,9 @@ class Movie {
         $this->mainCharacter = $_mainCharacter;
     }
 
+    public function getName(){
+        return $this->name;
+    }
 }
 
 ?>
