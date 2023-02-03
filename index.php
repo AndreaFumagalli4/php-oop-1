@@ -19,12 +19,20 @@
             </h1>
         </header>
         <main>
-            <pre>
+            <div>
                 <?php
                 $avengers = new Movie('Avengers age of Ultron', 'Action', 'Robert Downey Jr');
-                var_dump($avengers);
+                echo "<h2>";
+                echo $avengers->name;
+                echo "</h2>";
+                echo "<p>";
+                echo $avengers->genre;
+                echo "</p>";
+                echo "<p>";
+                echo $avengers->mainCharacter;
+                echo "</p>";
                 ?>
-            </pre>
+            </div>
         </main>
     </body>
 </html>
