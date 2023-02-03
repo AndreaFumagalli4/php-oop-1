@@ -21,7 +21,7 @@
         <main>
             <div>
                 <?php
-                $avengers = new Movie('Avengers age of Ultron', 'Action', 'Robert Downey Jr');
+                $avengers = new Movie('Avengers: age of Ultron', 'Action', 'Robert Downey Jr', 2015);
                 echo "<h2>";
                 echo $avengers->getName();
                 echo "</h2>";
@@ -30,6 +30,26 @@
                 echo "</p>";
                 echo "<p>";
                 echo $avengers->mainCharacter;
+                echo "</p>";
+                echo "<p>";
+                echo $avengers->year;
+                echo "</p>";
+                ?>
+            </div>
+            <div>
+                <?php
+                $transformers = new Movie('Transformers: the last kingdom', 'Action', 'Mark Wahlberg', 2017);
+                echo "<h2>";
+                echo $transformers->getName();
+                echo "</h2>";
+                echo "<p>";
+                echo $transformers->genre;
+                echo "</p>";
+                echo "<p>";
+                echo $transformers->mainCharacter;
+                echo "</p>";
+                echo "<p>";
+                echo $transformers->year;
                 echo "</p>";
                 ?>
             </div>
